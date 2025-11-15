@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Recreating the Quiz  From Go</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="home">
+                <h3 class="header">HOME</h3>
+                <div class="score">
+                    <span id="home-Score"></span>
+                </div>
+                <ul class="btn-list">
+                    <li><button class="add" onclick="addOnePoint()">+1</button></li>
+                    <li><button class="add" onclick="addTwoPoints()">+2</button></li>
+                    <li><button class="add" onclick="addThreePoints()">+3</button></li>
+                </ul>
+            </div>
+            <div class="rules">
+                <div class="time">
+                    <h5 class="timer">TIME: </h5>
+                </div>
+                <div class="fouls">
+                    <div class="h-fouls">
+                        <h6>HOME FOULS</h6>
+                        <span id="h-fouls"></span>
+                        <button class="f-add" onclick="addF()">+1</button>
+                    </div>
+                    <div class="a-fouls">
+                        <h6>AWAY FOULS</h6>
+                        <span  id="a-fouls"></span>
+                        <button class="f-add" onclick="GuestaddF()">+1</button>
+                    </div>
+                </div>
+                <div class="timeouts">
+                    <div class="h-timeouts">
+                        <h6>HOME TIMEOUTS</h6>
+                        <span id="h-timeouts"></span>
+                        <button class="f-add" onclick="addT()">+1</button>
+                    </div>
+                    <div class="a-timeouts">
+                        <h6>AWAY TIMEOUTS</h6>
+                        <span id="a-timeouts"></span>
+                        <button class="f-add" onclick="GuestaddT()">+1</button>
+                    </div>
+                </div>
+            </div>
+            <div class="away">
+                <h3 class="header">GUEST</h3>
+                <div class="score">
+                    <span id="away-Score"></span>
+                </div>
+                <ul class="btn-list">
+                    <li><button class="add" onclick="GuestaddOnePoint()">+1</button></li>
+                    <li><button class="add" onclick="GuestaddTwoPoints()">+2</button></li>
+                    <li><button class="add" onclick="GuestaddThreePoints()">+3</button></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    <script src="new.js"></script>
+</html>

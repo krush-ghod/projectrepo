@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.5",
+    "name": "APA referencing by tektons",
+    "action": {
+        "default_popup": "apa.html",
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}

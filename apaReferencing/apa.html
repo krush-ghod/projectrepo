@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="apa.css">
+        <title>APA reference saver</title>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <input type="text" id="author-name" placeholder="Author's Name">
+                <input type="date" id="published-date" placeholder="Select Date">
+                <input type="text" id="paper-title" placeholder="Paper's Title">
+                <input type="text" id="source" placeholder="Document Source">
+                <input type="text" id="add-note" placeholder="Add your notes here">
+            </form>
+            <button id="saveInfo">SAVE</button>
+            <button id="copyURL">PASTE ACTIVE URL</button>
+            <ul id="savedReferences">
+            </ul>
+            <button id="copyInfo">COPY INFO</button>
+            <button id="clearStorage">CLEAR STORAGE</button>
+            <p>(c) tektons</p>
+        </div>
+    </body>
+    <script src="apa.js"></script>
+</html>

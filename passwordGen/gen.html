@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="gen.css">
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <div class="nav">
+            <ul>
+                <li><a href="gen.html">Home</a></li>
+                <li><label id="dwm">Dark Mode: </label><input id="dwmb" type="checkbox"></li>
+            </ul>
+        </div>
+        <div class="container">
+            <h1 class="header">Password <span>Generator</span></h1>
+            <div class="para">
+                <h3>Never have a problem with an insecured password again, click to generate a secured password</h3>
+                <form class="user-spec">
+                    <label>Add Symbols: </label><input id="add-symbols" type="checkbox">
+                    <label>Add Numbers: </label><input id="add-numbers" type="checkbox">
+                    <label>Password Length: </label><input id="pass-lenght" type="number">
+                </form>
+                <button  id="btn">Generate</button>
+                <p>Password One: <p class="pass" id="generated-pass1"></p></p>
+                <p>Password Two: <p class="pass" id="generated-pass2"></p></p>
+            </div>
+
+        </div>
+    </body>
+    <script src="gen.js"></script>
+</html>

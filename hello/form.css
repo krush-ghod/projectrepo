@@ -1,0 +1,86 @@
+*{
+    margin: 10px;
+    padding: 0;
+}
+
+body{
+    background-color: #1b1b19;
+    color: #f6f6f6
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.header{
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: overline;
+    letter-spacing: 5px;
+}
+
+.btn-list{
+    list-style: none;
+    display: inline-flex;
+}
+
+.btn-list .add{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.score{
+    height: 160px;
+    width: 260px;
+    color: #ff0000;
+    border: #e6e6e6 solid;
+    text-align: center;
+
+}
+
+.score span{
+    font-size: 140px;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.rules{
+    display:block;
+    justify-content: center;
+}
+
+.time{
+    width: 90px;
+    height: max-content;
+    margin: 20px 10px;
+}
+
+.fouls{
+    display: flex;
+    height: max-content;
+    margin: 80px 0px;
+}
+
+.timeouts{
+    display: flex;
+    height: max-content;
+}
+
+.f-add{
+    background-color: aqua;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
